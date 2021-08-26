@@ -1,0 +1,5 @@
+n1 = str(input('Digite o seu nome completo: ')).strip()
+pn = n1.split()
+print('O seu primeiro nome é: {}' .format(pn[0]))
+un = n1.rfind(' ')
+print('O seu ultimo nome é: {}' .format(n1[un:]))
